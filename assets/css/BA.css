@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Project Intro Section */
+.project-intro {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.project-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Description Section */
+.project-detail {
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-detail h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.project-detail p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+.project-detail ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.project-detail ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.project-detail ul li strong {
+    color: #007bff;
+}
+
+/* Project Objectives Section */
+.project-objectives {
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-objectives h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.project-objectives ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.project-objectives ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Certificate Link Section */
+.certificate-link {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.certificate-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.certificate-btn:hover {
+    background-color: #0056b3;
+}
